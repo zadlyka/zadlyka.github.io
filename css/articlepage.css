@@ -65,15 +65,15 @@ section.slide-wrapper {
 }
 @media screen and (max-width: 568px) {
 section.slide-wrapper {
-    padding: 2em 3em;
+    padding: 3em 3em;
 }
 @media screen and (max-width: 440px) {
 section.slide-wrapper {
-    padding: 2em 3em;
+    padding: 2em 2em;
 }
 }
 @media screen and (max-width: 320px) {
 section.slide-wrapper {
-    padding: 2em 2em;
+    padding: 2em 1.5em;
 }
 }
