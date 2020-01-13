@@ -74,6 +74,6 @@ section.slide-wrapper {
 }
 @media screen and (max-width: 320px) {
 section.slide-wrapper {
-    padding: 2em 1.5em;
+    padding: 2em 2em;
 }
 }
