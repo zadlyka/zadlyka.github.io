@@ -1,0 +1,65 @@
+* {
+  font-family: "Playfair Display";
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 70px;
+}
+h3 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.menu-bar {
+  list-style: none;
+  font-size: 20px;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li a {
+  color: black;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+.tittle::after {
+  content: "";
+  display: block;
+  width: 40px;
+  padding-top: 3px;
+  border-bottom: 2px solid;
+}
