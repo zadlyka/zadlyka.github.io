@@ -2,7 +2,9 @@
   font-family: "Playfair Display";
 }
 
+html,
 body {
+  position: relative;
   overflow-x: hidden;
 }
 

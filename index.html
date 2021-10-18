@@ -38,25 +38,25 @@
         <div class="offcanvas-body mx-5">
             <ul class="list-unstyled">
                 <li>
-                    <a href="#home" class="btn btn-outline-dark w-100 mb-3">Home</a>
+                    <a href="#home" class="btn btn-outline-dark w-100 menu-button mb-3" data-menu="home">Home</a>
                 </li>
                 <li>
-                    <a href="#about" class="btn btn-outline-dark w-100 mb-3">About Me</a>
+                    <a href="#about" class="btn btn-outline-dark w-100 menu-button mb-3" data-menu="about">About Me</a>
                 </li>
                 <li>
-                    <a href="#edex" class="btn btn-outline-dark w-100 mb-3">Education & Experience</a>
+                    <a href="#edex" class="btn btn-outline-dark w-100 menu-button mb-3" data-menu="edex">Education & Experience</a>
                 </li>
                 <li>
-                    <a href="#certification" class="btn btn-outline-dark w-100 mb-3">Certification</a>
+                    <a href="#certification" class="btn btn-outline-dark w-100 menu-button mb-3" data-menu="certif">Certification</a>
                 </li>
                 <li>
-                    <a href="#skills" class="btn btn-outline-dark w-100 mb-3">Skill</a>
+                    <a href="#skills" class="btn btn-outline-dark w-100 menu-button menu-button mb-3" data-menu="skill">Skill</a>
                 </li>
                 <li>
-                    <a href="#achievments" class="btn btn-outline-dark w-100 mb-3">Achievments</a>
+                    <a href="#achievments" class="btn btn-outline-dark w-100 menu-button mb-3" data-menu="achiev">Achievments</a>
                 </li>
                 <li>
-                    <a href="#projects" class="btn btn-dark w-100 mb-3">Project</a>
+                    <a href="#projects" class="btn btn-dark w-100 menu-button mb-3" data-menu="project">Project</a>
                 </li>
             </ul>
         </div>
@@ -93,7 +93,7 @@
         </section>
 
         <section class="container-fluid" id="about">
-            <div class="row flex-lg align-items-center p-5">
+            <div class="row flex-lg align-items-center p-3">
                 <div class="col-lg-4 col-sm-4 mx-auto mb-3 animate__animated animate__fadeIn">
                     <img src="assets/img/profile.jpg" class="d-block mx-lg-auto img-fluid">
                 </div>
@@ -109,13 +109,13 @@
         </section>
 
         <section class="container-fluid bg-dark text-white" id="edex">
-            <div class="row flex-lg p-5">
-                <div class="col-lg-4 col-sm-4 mx-auto animate__animated animate__slideInLeft">
+            <div class="row flex-lg px-3 py-5">
+                <div class="col-lg-4 col-sm-4 mx-auto" id="ed">
                     <h2>Education.</h2>
                     2016 - 2021
                     <h3>Computer Science, Faculty of Computer, Sriwijaya University</h3>
                 </div>
-                <div class="col-lg-7 col-sm-7 animate__animated animate__slideInRight">
+                <div class="col-lg-7 col-sm-7" id="ex">
                     <h2>Experience.</h2>
                     <div class="row mt-3">
                         <div class="col-6">
@@ -136,7 +136,7 @@
         </section>
 
         <section class="container-fluid" id="certification">
-            <div class="row p-5 animate__animated animate__slideInUp">
+            <div class="row px-3 py-5" id="certif">
                 <h2 class="text-center mb-3">Certification.</h2>
                 <div class="col-sm-6 mb-3">
                     <div class="card">
@@ -208,8 +208,8 @@
             </div>
         </section>
 
-        <section class="container-fluid bg-dark px-5 pt-5" id="skills">
-            <div class="card align-items-center">
+        <section class="container-fluid bg-dark px-3 pt-5" id="skills">
+            <div class="card align-items-center" id="skill">
                 <div class="card-body">
                     <h2 class="text-center mb-3">Skills.</h2>
                     <div class="mb-3">
@@ -242,7 +242,7 @@
         </section>
 
         <section class="container-fluid bg-dark text-white" id="achievments">
-            <div class="row flex-lg p-5">
+            <div class="row flex-lg px-3 py-5" id="achiev">
                 <h2 class="text-center">Achievments.</h2>
                 <div class="col-lg-6 col-sm-6 p-3">
                     <h3>2nd Winner - 2018 <br>Application Development Competitions - Srifoton</h3>
@@ -256,15 +256,15 @@
         </section>
 
 
-        <section class="container-fluid p-5" id="projects">
+        <section class="container-fluid px-3 py-5" id="projects">
             <div class="mb-3 text-center">
                 <h2 class="text-center mb-3">Projects.</h2>
                 <ul class="list-inline">
-                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button" data-filter="all">All</button></li>
-                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button" data-filter="web">Website</button></li>
-                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button" data-filter="game">Game</button></li>
-                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button" data-filter="android">Android</button></li>
-                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button" data-filter="mlearning">Machine Learning</button></li>
+                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button mb-3" data-filter="all">All</button></li>
+                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button mb-3" data-filter="web">Website</button></li>
+                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button mb-3" data-filter="game">Game</button></li>
+                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button mb-3" data-filter="android">Android</button></li>
+                    <li class="list-inline-item"><button class="btn btn-outline-dark filter-button mb-3" data-filter="mlearning">Machine Learning</button></li>
                 </ul>
             </div>
 
